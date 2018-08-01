@@ -11,10 +11,11 @@
               
                     <!-- navbar test place <nav class="navbar navbar-expand-lg navbar-light bg-light">
                             <form class="form-inline my-2 my-lg-0"> -->
-                <header class='top-bar _fixed'>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+                <!-- nav btn    <a class="navbar-brand" href="#">Navbar</a> -->
                 <a href="https://mjr390.github.io/" class="btn btn-warning" role="button" >My Site</a>
                 <div class="btn-group" > <!-- buttons start --> 
-                
+                    <form class="form-inline">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Plots <span class="caret"></span>
                 </button>
@@ -28,11 +29,46 @@
 
                 <a href="https://mjr390.github.io/Compare" class="btn btn-primary" role="button" >Compare</a>
                 <a href="https://mjr390.github.io/Data" class="btn btn-info" role="button" >Data</a>
+                </form>
               </div> <!-- buttons end --> 
-            </header>
+            </nav>
 
-             <h1> A landing page containing:
-              An explanation of the project.
-              Links to each visualizations page.  </h1>
+             <h1> Summary: Latitude Vs X
+            </h1>
+            <p>
+                The goal of this project was to analyze how weather changes based on a city's proximity 
+                to the equator.  To accomplish this, we first pulled data from the OpenWeatherMap API
+                to assemble a dataset on over 500 cities around the world.
+            </p>
+            <p>
+                After gathering the data, we used pandas to organize the data and then Matplotlib to
+                plot various aspects of the weather vs. latitude. Factors we looked at included: temperature,
+                cloudiness, wind speed, and humidity. This site provides the source data and visualizations
+                created from the anaylsis, as well as explainations and descriptions of any trends and correlations
+                discovered.
+            </p>
+            <h2>
+                Visualizations
+            </h2>
+                <p>
+                    <a href="https://mjr390.github.io/Viz_page_1">
+                        <img width="200" src="images/LatVMaxTemp.png" alt="Plot 1">
+                    </a>
+                </p>
+                <p>
+                    <a href="https://mjr390.github.io/Viz_page_2">
+                        <img width="200" src="images/LatVHumidity.png" alt="Plot 2">
+                    </a>
+                </p>
+                <p>
+                    <a href="https://mjr390.github.io/Viz_page_3">
+                        <img width="200" src="images/LatVCloudiness.png" alt="Plot 3">
+                    </a>
+                </p>
+                <p>
+                    <a href="https://mjr390.github.io/Viz_page_4">
+                        <img width="200" src="images/LatVWindSpeed.png" alt="Plot 4">
+                    </a>
+                </p>
             </body>
 </html>

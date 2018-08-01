@@ -8,21 +8,27 @@
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         </head>
             <body>
-              
-         
-              <div class="btn-group"> <!-- dropdown menu start --> 
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Plots <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a href="file:///C:/Users/Mike/Desktop/mjr390.github.io/Viz_page_1.html">Plot 1</a></li>
-                  <li><a href="file:///C:/Users/Mike/Desktop/mjr390.github.io/Viz_page_2.html">Plot 2</a></li>
-                  <li><a href="file:///C:/Users/Mike/Desktop/mjr390.github.io/Viz_page_3.html">Plot 3</a></li>
-                  <li><a href="file:///C:/Users/Mike/Desktop/mjr390.github.io/Viz_page_4.html">Plot 4</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="file:///C:/Users/Mike/Desktop/mjr390.github.io/index.html">Home</a></li>
-                </ul>
-              </div> <!-- dropdown menu end --> 
+                <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+                    <!-- nav btn    <a class="navbar-brand" href="#">Navbar</a> -->
+                    <a href="https://mjr390.github.io/" class="btn btn-warning" role="button" >My Site</a>
+                    <div class="btn-group" > <!-- buttons start --> 
+                        <form class="form-inline">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="https://mjr390.github.io/Viz_page_1">Plot 1</a></li>
+                      <li><a href="https://mjr390.github.io/Viz_page_2">Plot 2</a></li>
+                      <li><a href="https://mjr390.github.io/Viz_page_3">Plot 3</a></li>
+                      <li><a href="https://mjr390.github.io/Viz_page_4">Plot 4</a></li>
+                      
+                    </ul>
+    
+                    <a href="https://mjr390.github.io/Compare" class="btn btn-primary" role="button" >Compare</a>
+                    <a href="https://mjr390.github.io/Data" class="btn btn-info" role="button" >Data</a>
+                    </form>
+                  </div> <!-- buttons end --> 
+                </nav>
 
              <h1> Displays a responsive table containing the data used in the visualizations.
                     The table must be a bootstrap table component.
