@@ -10,16 +10,32 @@
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   </script>
+  <style>
+  .box-1 {
+    border: solid 2px black;
+  }
+  .home-1 {
+    
+      align-self: auto;
+  }
+  @media (max-width: 992px) {
+   .box-1 {
+    background: green;
+   border: solid 2px black;
+   
+  } 
+  }
+</style>
  </head>
  <body>
   <div class="container">
    <div class="row">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+    <nav class="navbar box-1">
      <!-- nav btn to home -->
-     <a class="btn btn-warning" style="float: left;" href="https://mjr390.github.io/" role="button">
+     <a class="btn btn-warning btn-lg home-1" style="float: left;" href="https://mjr390.github.io/" role="button">
       WeatherPy
      </a>
-     <div style="float: right;" class="btn-group">
+     <div style="float: right;" class="btn-group btn-lg">
       <!-- buttons start -->
       <form class="form-inline">
        <button aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">
@@ -87,24 +103,24 @@
      <div class="row">
       <div class="col-md-6 col-sm-12">
        <a href="https://mjr390.github.io/Viz_page_1">
-        <img alt="Plot 1" class="img-responsive" src="Images/LatVMaxTemp.png" width="200"/>
+        <img alt="Plot 1" class="img-responsive" src="Images/LatVMaxTemp.png" width="250"/>
        </a>
       </div>
       <div class="col-md-6 col-sm-12">
        <a href="https://mjr390.github.io/Viz_page_2">
-        <img alt="Plot 2" class="img-responsive" src="Images/LatVHumidity.png" width="200"/>
+        <img alt="Plot 2" class="img-responsive" src="Images/LatVHumidity.png" width="250"/>
        </a>
       </div>
      </div>
      <div class="row">
       <div class="col-md-6 col-sm-12">
        <a href="https://mjr390.github.io/Viz_page_3">
-        <img alt="Plot 3" class="img-responsive" src="Images/LatVCloudiness.png" width="200"/>
+        <img alt="Plot 3" class="img-responsive" src="Images/LatVCloudiness.png" width="250"/>
        </a>
       </div>
       <div class="col-md-6 col-sm-12">
        <a href="https://mjr390.github.io/Viz_page_4">
-        <img alt="Plot 4" class="img-responsive" src="Images/LatVWindSpeed.png" width="200"/>
+        <img alt="Plot 4" class="img-responsive" src="Images/LatVWindSpeed.png" width="250"/>
        </a>
       </div>
      </div>
