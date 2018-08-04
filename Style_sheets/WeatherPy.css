@@ -12,6 +12,10 @@
   .ground-2 {
       background: rgb(191, 214, 243);
   }
+
+  .table-1{
+      background: rgb(167, 189, 189);
+  }
   @media (max-width: 992px) {
    .box-1 {
     background: green;
