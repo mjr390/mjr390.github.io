@@ -10,29 +10,14 @@
   </script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
   </script>
-  <style>
-  .box-1 {
-    border: solid 2px black;
-  }
-  .home-1 {
-    
-      align-self: auto;
-  }
-  @media (max-width: 992px) {
-   .box-1 {
-    background: green;
-   border: solid 2px black;
-   
-  } 
-  }
-</style>
+<link rel="stylesheet" href="Style_sheets/WeatherPy.css">
  </head>
- <body>
+ <body class="ground-1">
   <div class="container">
    <div class="row">
     <nav class="navbar box-1">
      <!-- nav btn to home -->
-     <a class="btn btn-warning btn-lg home-1" style="float: left;" href="https://mjr390.github.io/" role="button">
+     <a class="btn btn-warning btn-lg" style="float: left;" href="https://mjr390.github.io/" role="button">
       WeatherPy
      </a>
      <div style="float: right;" class="btn-group btn-lg">
@@ -79,9 +64,9 @@
   </div>
   <div class="container">
    <div class="row">
-    <div class="col-md-8 col-sm-12">
+    <div class="col-md-7 col-sm-12 ground-2">
      <h1>
-      Summary: Latitude Vs X
+      <strong>Summary: Latitude Vs X </strong>
      </h1>
      <p>
       The goal of this project was to analyze how weather changes based on a city's proximity 
@@ -96,31 +81,33 @@
                     discovered.
      </p>
     </div>
-    <div class="col-md-4 col-sm-12">
+   <div class="col-md-1 col-sm-12"> </div>
+    <div class="col-md-4 col-sm-12 ground-2">
      <h2>
-      Visualizations
+      <strong>Visualizations</strong>
      </h2>
      <div class="row">
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
        <a href="https://mjr390.github.io/Viz_page_1">
-        <img alt="Plot 1" class="img-responsive" src="Images/LatVMaxTemp.png" width="250"/>
+        <img alt="Plot 1" class="img-responsive" src="Images/LatVMaxTemp.png" width="300"/>
        </a>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
        <a href="https://mjr390.github.io/Viz_page_2">
-        <img alt="Plot 2" class="img-responsive" src="Images/LatVHumidity.png" width="250"/>
+        <img alt="Plot 2" class="img-responsive" src="Images/LatVHumidity.png" width="300"/>
        </a>
       </div>
      </div>
+     
      <div class="row">
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
        <a href="https://mjr390.github.io/Viz_page_3">
-        <img alt="Plot 3" class="img-responsive" src="Images/LatVCloudiness.png" width="250"/>
+        <img alt="Plot 3" class="img-responsive" src="Images/LatVCloudiness.png" width="300"/>
        </a>
       </div>
-      <div class="col-md-6 col-sm-12">
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
        <a href="https://mjr390.github.io/Viz_page_4">
-        <img alt="Plot 4" class="img-responsive" src="Images/LatVWindSpeed.png" width="250"/>
+        <img alt="Plot 4" class="img-responsive" src="Images/LatVWindSpeed.png" width="300"/>
        </a>
       </div>
      </div>
