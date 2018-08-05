@@ -23,3 +23,8 @@
    
   } 
   }
+  @media (min-width: 1px){
+      .table-1 {
+          background: rgb(167, 189, 189)
+      }
+  }
