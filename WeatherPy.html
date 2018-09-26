@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>
+   Home Page
+  </title>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link rel="stylesheet" href="Style_sheets/reset.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+<link rel="stylesheet" href="Style_sheets/WeatherPy.css">
+ </head>
+ <body class="ground-1">
+  <div class="container">
+   <div class="row">
+    <nav class="navbar box-1">
+     <!-- nav btn to home -->
+     <a class="btn btn-warning btn-lg" style="float: left;" href="https://mjr390.github.io/WeatherPy" role="button">
+      WeatherPy
+     </a>
+     <div style="float: right;" class="btn-group btn-lg">
+      <!-- buttons start -->
+      <form class="form-inline">
+       <button aria-expanded="false" aria-haspopup="true" class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button">
+        Plots
+        <span class="caret">
+        </span>
+       </button>
+       <ul class="dropdown-menu">
+        <li>
+         <a href="https://mjr390.github.io/Viz_page_1">
+          Max Temperature
+         </a>
+        </li>
+        <li>
+         <a href="https://mjr390.github.io/Viz_page_2">
+          Humidity
+         </a>
+        </li>
+        <li>
+         <a href="https://mjr390.github.io/Viz_page_3">
+          Cloudiness
+         </a>
+        </li>
+        <li>
+         <a href="https://mjr390.github.io/Viz_page_4">
+          Wind Speed
+         </a>
+        </li>
+       </ul>
+       <a class="btn btn-primary" href="https://mjr390.github.io/Compare" role="button">
+        Compare
+       </a>
+       <a class="btn btn-info" href="https://mjr390.github.io/Data" role="button">
+        Data
+       </a>
+      </form>
+     </div>
+     <!-- buttons end -->
+    </nav>
+   </div>
+  </div>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-7 col-sm-12 ground-2" style=" background-blend-mode: lighten;">
+     <h1>
+      <strong>Summary: Latitude Vs X </strong>
+     </h1>
+     <p>
+      The goal of this project was to analyze how weather changes based on a city's proximity
+                    to the equator.  To accomplish this, we first pulled data from the OpenWeatherMap API
+                    to assemble a dataset on over 500 cities around the world.
+     </p>
+     <p>
+      After gathering the data, we used pandas to organize the data and then Matplotlib to
+                    plot various aspects of the weather vs. latitude. Factors we looked at included: temperature,
+                    cloudiness, wind speed, and humidity. This site provides the source data and visualizations
+                    created from the anaylsis, as well as explainations and descriptions of any trends and correlations
+                    discovered.
+     </p>
+    </div>
+   <div class="col-md-1 col-sm-12"> </div>
+    <div class="col-md-4 col-sm-12 ground-2">
+     <h2>
+      <strong>Visualizations</strong>
+     </h2>
+     <div class="row">
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal;">
+       <a href="https://mjr390.github.io/Viz_page_1">
+        <img alt="Plot 1" class="img-responsive" src="Images/LatVMaxTemp.png" width="300"/>
+       </a>
+      </div>
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
+       <a href="https://mjr390.github.io/Viz_page_2">
+        <img alt="Plot 2" class="img-responsive" src="Images/LatVHumidity.png" width="300"/>
+       </a>
+      </div>
+     </div>
+
+     <div class="row">
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
+       <a href="https://mjr390.github.io/Viz_page_3">
+        <img alt="Plot 3" class="img-responsive" src="Images/LatVCloudiness.png" width="300"/>
+       </a>
+      </div>
+      <div class="col-md-6 col-sm-12" style="border: solid 1px teal">
+       <a href="https://mjr390.github.io/Viz_page_4">
+        <img alt="Plot 4" class="img-responsive" src="Images/LatVWindSpeed.png" width="300"/>
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
