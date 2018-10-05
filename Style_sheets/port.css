@@ -30,3 +30,9 @@
 .middlePro{
   background-color: aliceblue;
 }
+
+@media (max-width: 767px) {
+    .sidenav{
+        display:none;
+    }
+}
